@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Advertise_mgmt_system.props" />
+</Project>

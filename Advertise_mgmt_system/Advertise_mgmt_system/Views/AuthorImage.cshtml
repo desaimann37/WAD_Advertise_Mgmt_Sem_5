@@ -1,0 +1,19 @@
+﻿@* @model Advertise_mgmt_system.Models.Author
+@{
+    var imgText = "";
+    if (Model.imgPath.EndsWith("/oki.jpg"))
+    {
+        imgText = "Author Name : " + Model.AuthorName.Trim() + " " + "Description : " + Model.AuthorDescription.Trim();
+    }
+    else
+    {
+        imgText = "No Author Found !" + Model.AuthorName.Trim() + " " + Model.AuthorDescription.Trim();
+    }
+
+}
+
+
+<img src="@Model.imgPath" class="img-fluid" alt="@imgText" title="@imgText"/>
+
+
+ *@

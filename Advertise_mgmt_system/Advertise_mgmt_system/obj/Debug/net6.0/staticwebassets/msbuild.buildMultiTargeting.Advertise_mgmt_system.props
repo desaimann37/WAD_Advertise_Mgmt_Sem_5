@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Advertise_mgmt_system.props" />
+</Project>
